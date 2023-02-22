@@ -1,0 +1,32 @@
+body {
+    background-color: #D77A61;
+  }
+  
+  h1 {
+    background-color: #7CA5B8;
+    margin-left: 20px;
+    color: #FFEDDF;
+  }
+  img.side{
+    float:right;
+    margin-bottom: 10px;
+  }
+  p{
+    color: #4E4B5C;
+  }
+  li{
+    color: #4E4B5C;
+  }
+  ol{
+    color: #4E4B5C;
+  }
+  h2{
+    color: #828C51;
+  }
+  main{
+    background-color: #FFEDDF;
+    border: 1px solid #424242;
+    margin: 0 auto;
+    width: 80vw;
+    padding: 1rem;
+}
