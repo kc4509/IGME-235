@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="css/mystyles.css">
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="flex" id="fit">
+            <img src="images/umbrella.jpg" alt="icon">
+            <h1>Weather Forecast</h1>
+        </div>
+    </header>
+    <content>
+        <div class="wrapper" id="content">
+            <h1 id="title">Where will you be going today?</h1>
+            <img id="image" src="images/icon.png" alt="weather icon">
+            
+            <button id= "button" type="button" id="search" class="button">Search<br /></button>
+            <button type="button" id="lsearch" class="button2">Left<br /></button>
+            
+            <div class="widgets" id="search">
+                <div>
+                    <h2>Longitude(min:-180, max:180):</h2>
+                    <input id="longitude" type="text" size="20" maxlength="20" autofocus value="52.52" />
+                </div>
+                <div>
+                    <h2>Latitude(min:-90, max:90):</h2>
+                    <input id= "latitude" type="text" size="20" maxlength="20" autofocus value="13.41" />
+                </div>
+            </div>
+
+
+            <div class="widgets" id="select">
+                <h2># of days -> </h2>
+                <select id="days">
+                    <option value="1" selected>1</option>
+                    <option value="3">3</option>
+                    <option value="7">7</option>
+                    <option value="14">14</option>
+                    <option value="16">16</option>
+                </select>
+            </div>
+
+            
+            <div id="result" class="center">
+                <h1>Result</h1>
+                <hr>
+                <div id="status">
+                    Searching for ...
+                </div>
+                <p id="day"></p>
+                <p id="info">No data yet!</p>
+            </div>
+        </div>
+    </content>
+    
+    
+</body>
+</html>
